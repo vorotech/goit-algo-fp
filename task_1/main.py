@@ -1,7 +1,11 @@
-from linked_list import LinkedList, Node
+"""Module demonstrates the usage of the LinkedList class."""
+
+from linked_list import LinkedList
+
 
 def main():
-    
+    """Main function for testing the LinkedList class."""
+
     llist = LinkedList()
 
     # Вставляємо вузли в початок
@@ -52,6 +56,7 @@ def main():
     merged_list = llist.merge_sorted(llist2)
     print("\nОб'єднаний відсортований список:")
     merged_list.print_list()
+
 
 if __name__ == "__main__":
     main()
